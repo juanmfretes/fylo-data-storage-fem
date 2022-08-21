@@ -1,0 +1,18 @@
+/* feature-icons */
+.feature-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+/* feature-icons__image-container */
+.feature-icons__image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 10px;
+}
