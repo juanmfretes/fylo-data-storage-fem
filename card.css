@@ -1,0 +1,8 @@
+/* card */
+.card {
+  background-color: hsl(228, 56%, 26%);
+  padding: 48px;
+  border-radius: 8px;
+  color: hsl(243, 100%, 93%);
+  font-size: 14px;
+}
