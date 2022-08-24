@@ -1,0 +1,44 @@
+.bar {
+  padding: 3px;
+  position: relative;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 1000px;
+}
+
+.bar__bg {
+  position: relative;
+  height: 16px;
+  width: 80%;
+  background-image: linear-gradient(
+    to right,
+    hsl(6, 100%, 80%),
+    hsl(335, 100%, 65%)
+  );
+  border-radius: 1000px;
+}
+
+.bar__indicator {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-2px, -50%);
+
+  background-color: hsl(243, 100%, 93%);
+  border-radius: 1000px;
+  width: 12px;
+  height: 12px;
+}
+
+.bar__labels-container {
+  position: absolute;
+  top: 145%;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar__label {
+  font-size: 12px;
+  font-weight: 700;
+}
