@@ -14,3 +14,8 @@
   border-top-right-radius: 100px;
   padding: 42px;
 }
+
+.card--long-width {
+  width: 542px;
+  padding: 42px 38px 64px;
+}
