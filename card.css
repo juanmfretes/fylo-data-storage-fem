@@ -2,20 +2,27 @@
 .card {
   background-color: hsl(228, 56%, 26%);
   padding: 48px;
-  border-radius: 8px;
+  border-radius: 10px;
   color: hsl(243, 100%, 93%);
   font-size: 14px;
 
   position: relative;
+  top: 5px;
+  left: 1px;
 }
 
 .card--big-border-radius {
-  width: 352px;
+  width: 350px;
   border-top-right-radius: 100px;
-  padding: 42px;
+  padding: 40px 41px;
 }
 
 .card--long-width {
   width: 542px;
   padding: 42px 38px 64px;
+}
+
+/* card__image */
+.card__image {
+  margin-bottom: 30px;
 }
