@@ -8,3 +8,9 @@
 
   position: relative;
 }
+
+.card--big-border-radius {
+  width: 352px;
+  border-top-right-radius: 100px;
+  padding: 42px;
+}
