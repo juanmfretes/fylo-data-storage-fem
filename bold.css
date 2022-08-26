@@ -1,0 +1,9 @@
+/* bold */
+.bold {
+  font-weight: 700;
+}
+
+/* bold--dark */
+.bold--dark {
+  color: hsl(229, 57%, 11%);
+}
