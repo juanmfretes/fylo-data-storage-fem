@@ -6,4 +6,6 @@
 /* bold--dark */
 .bold--dark {
   color: hsl(229, 57%, 11%);
+  margin-right: 6px;
+  font-size: 40px;
 }
