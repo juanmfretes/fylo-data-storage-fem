@@ -17,11 +17,16 @@
 }
 
 .card--long-width {
-  width: 542px;
-  padding: 42px 38px 64px;
+  width: 540px;
+  padding: 40px 39px 62px;
 }
 
 /* card__image */
 .card__image {
   margin-bottom: 30px;
+}
+
+/* card__text */
+.card__text {
+  margin-bottom: 16px;
 }

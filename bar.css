@@ -1,5 +1,6 @@
 .bar {
   padding: 3px;
+  margin: 0 1px;
   position: relative;
   background-color: hsl(229, 57%, 11%);
   border-radius: 1000px;
@@ -7,8 +8,8 @@
 
 .bar__bg {
   position: relative;
-  height: 16px;
-  width: 80%;
+  height: 14px;
+  width: 74.7%;
   background-image: linear-gradient(
     to right,
     hsl(6, 100%, 80%),
@@ -25,13 +26,13 @@
 
   background-color: hsl(243, 100%, 93%);
   border-radius: 1000px;
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
 }
 
 .bar__labels-container {
   position: absolute;
-  top: 145%;
+  top: 144%;
   left: 0;
   width: 100%;
   display: flex;
