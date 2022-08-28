@@ -24,11 +24,20 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: hsl(229, 7%, 55%);
 
   position: fixed;
   bottom: 20px;
 }
 
-.attribution a {
-  color: hsl(228, 45%, 44%);
+.attribution a:link,
+.attribution a:visited {
+  color: hsl(6, 100%, 80%);
+
+  transition: all 0.3s;
+}
+
+.attribution a:hover,
+.attribution a:active {
+  color: hsl(335, 100%, 65%);
 }
