@@ -32,6 +32,18 @@
   }
 }
 
+@media (max-width: 590px) {
+  .card--long-width {
+    text-align: center;
+    padding: 32px 31px 76px;
+  }
+
+  .card--big-border-radius,
+  .card--long-width {
+    width: calc(100vw - 50px);
+  }
+}
+
 /* card__image */
 .card__image {
   margin-bottom: 30px;

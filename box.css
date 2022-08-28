@@ -36,6 +36,17 @@
   }
 }
 
+@media (max-width: 590px) {
+  .box {
+    width: 55%;
+    padding-right: 19px;
+  }
+
+  .box::before {
+    content: none;
+  }
+}
+
 /* box__text */
 .box__text {
   vertical-align: -2px;

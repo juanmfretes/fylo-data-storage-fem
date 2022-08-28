@@ -21,6 +21,14 @@ body {
   min-height: 100vh;
 }
 
+@media (max-width: 590px) {
+  body {
+    background-image: url(./images/bg-mobile.png);
+    background-position: center center;
+    background-size: cover;
+  }
+}
+
 /* ATTRIBUTION */
 .attribution {
   font-size: 11px;
