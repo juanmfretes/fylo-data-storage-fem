@@ -21,6 +21,21 @@
   border-left: 23px solid transparent;
 }
 
+@media (max-width: 950px) {
+  .box {
+    border-radius: 10px;
+    top: unset;
+    right: unset;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+
+  .box::before {
+    content: none;
+  }
+}
+
 /* box__text */
 .box__text {
   vertical-align: -2px;

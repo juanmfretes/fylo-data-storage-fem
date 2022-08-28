@@ -1,5 +1,12 @@
+/* container */
 .container {
   display: flex;
   gap: 30px;
   align-items: flex-end;
+}
+
+@media (max-width: 950px) {
+  .container {
+    flex-direction: column;
+  }
 }

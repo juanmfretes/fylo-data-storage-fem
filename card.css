@@ -22,6 +22,16 @@
   padding: 40px 39px 62px;
 }
 
+@media (max-width: 950px) {
+  .card {
+    top: unset;
+  }
+
+  .card--big-border-radius {
+    align-self: center;
+  }
+}
+
 /* card__image */
 .card__image {
   margin-bottom: 30px;

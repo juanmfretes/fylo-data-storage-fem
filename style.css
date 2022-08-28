@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 
+/* body */
 body {
   font-family: "Raleway", sans-serif;
   background-color: hsl(229, 57%, 11%);
